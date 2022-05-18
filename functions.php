@@ -3,10 +3,28 @@
 function followandrew_theme_support(){
     // Adds dynamic title tag support
     add_theme_support('title-tag');
+    // for dynamic custom logo
+    add_theme_support('custom-logo');
+    // for custom post thumbnails
+    add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'followandrew_theme_support');
 
+// adds the dynamic menu
+function followandrew_menus(){
+
+    $locations = array(
+        'primary' => "Desktop Primary Left Sidebar",
+        'footer' => "Footer Menu Items"
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'followandrew_menus');
+
+// adds all the styles and cdns for styles
 function followandrew_register_styles(){
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('followandrew-style', get_template_directory_uri() . "/style.css", array('followandrew-bootstrap'), $version, 'all');
@@ -17,6 +35,7 @@ function followandrew_register_styles(){
 
 add_action('wp_enqueue_scripts', 'followandrew_register_styles');
 
+//adds all the scripts for javascript 
 function followandrew_register_scripts(){
 
     wp_enqueue_script('followandrew-jquery', "https://code.jquery.com/jquery-3.4.1.slim.min.js", array(), '3.4.1', true);
