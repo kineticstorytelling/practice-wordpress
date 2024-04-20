@@ -18,7 +18,7 @@
             ?>
 
             <?php
-
+                the_post_pagination();
             ?>
 	    </article>
 
