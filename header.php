@@ -56,6 +56,21 @@
 
                 <ul class="navbar-nav flex-column text-sm-center text-md-left">
                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home fa-fwmr-2"></i>Blog Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
                     </li>
                 </ul>
