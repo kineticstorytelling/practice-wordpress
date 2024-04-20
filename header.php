@@ -56,7 +56,7 @@
 
 
 				<hr>
-				<ul class="navbar-nav social-list list-inline py-3 mx-auto">
+				<ul class="navbar-nav flex-column social-list list-inline py-3 mx-auto">
 					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
