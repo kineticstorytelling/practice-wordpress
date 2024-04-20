@@ -54,26 +54,6 @@
                     );
                 ?>
 
-                <ul class="navbar-nav flex-column text-sm-center text-md-left">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"><i class="fas fa-home fa-fwmr-2"></i>Blog Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
-                    </li>
-                </ul>
 				<hr>
 				<ul class="social-list list-inline py-3 mx-auto">
 					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
