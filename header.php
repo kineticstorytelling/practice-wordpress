@@ -55,7 +55,9 @@
                 ?>
 
                 <ul class="navbar-nav flex-column text-sm-center text-md-left">
-                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas"></i>Blog</a>
+                    </li>
                 </ul>
 				<hr>
 				<ul class="social-list list-inline py-3 mx-auto">
