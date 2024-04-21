@@ -52,10 +52,10 @@ function followandrew_widget_areas(){
     
     register_sidebar(
         array(
-            'before_title' => '';
-            'after_title' => '';
-            'before_widget' => '';
-            'after_widget' => '';
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => '',
         ),
         array(
             'name' => 'Sidebar Area',
