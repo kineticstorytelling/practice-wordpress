@@ -64,6 +64,11 @@
 				</ul>
 
 			</div>
+
+            <?php
+                dynamic_sidebar('sidebar-1');
+                // add the id from your widget sidebar
+                ?>
 		</nav>
     </header>
     <div class="main-wrapper">
