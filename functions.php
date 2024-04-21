@@ -54,8 +54,8 @@ function followandrew_widget_areas(){
         array(
             'before_title' => '',
             'after_title' => '',
-            'before_widget' => '',
-            'after_widget' => '',
+            'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+            'after_widget' => '</ul>',
         ),
         array(
             'name' => 'Sidebar Area',
