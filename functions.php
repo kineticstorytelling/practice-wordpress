@@ -50,6 +50,13 @@ add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
 
 function followandrew_widget_areas(){
     
+    register_sidebar(
+        array(
+            'before_title' => '';
+            'after_title' => '';
+            'before_widget' => '';
+        )
+    )
 }
 
     ?>
