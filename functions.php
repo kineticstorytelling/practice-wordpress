@@ -22,7 +22,7 @@ function luke_menus(){
     register_nav_menus($locations);
 }
 
-add_action('init', 'followandrew_menus');
+add_action('init', 'luke_menus');
 
 // adds all the styles and cdns for styles
 function followandrew_register_styles(){
