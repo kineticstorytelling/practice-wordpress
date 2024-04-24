@@ -1,6 +1,6 @@
 <?php
 
-function followandrew_theme_support(){
+function luke_theme_support(){
     // Adds dynamic title tag support
     add_theme_support('title-tag');
     // for dynamic custom logo
