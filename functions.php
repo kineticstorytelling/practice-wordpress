@@ -48,7 +48,7 @@ function followandrew_register_scripts(){
 add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
 
 
-function followandrew_widget_areas(){
+function luke_widget_areas(){
     
     register_sidebar(
         array(
