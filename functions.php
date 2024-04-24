@@ -12,7 +12,7 @@ function luke_theme_support(){
 add_action('after_setup_theme', 'luke_theme_support');
 
 // adds the dynamic menu
-function followandrew_menus(){
+function luke_menus(){
 
     $locations = array(
         'primary' => "Desktop Primary Left Sidebar",
