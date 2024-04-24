@@ -65,6 +65,6 @@ function luke_widget_areas(){
     );
 }
 
-add_action('widgets_init', 'followandrew_widget_areas');
+add_action('widgets_init', 'luke_widget_areas');
 
     ?>
