@@ -33,7 +33,7 @@ function luke_register_styles(){
 
 }
 
-add_action('wp_enqueue_scripts', 'followandrew_register_styles');
+add_action('wp_enqueue_scripts', 'luke_register_styles');
 
 //adds all the scripts for javascript 
 function followandrew_register_scripts(){
