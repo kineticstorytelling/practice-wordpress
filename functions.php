@@ -25,7 +25,7 @@ function luke_menus(){
 add_action('init', 'luke_menus');
 
 // adds all the styles and cdns for styles
-function followandrew_register_styles(){
+function luke_register_styles(){
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('followandrew-style', get_template_directory_uri() . "/style.css", array('followandrew-bootstrap'), $version, 'all');
     wp_enqueue_style('followandrew-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", array(), '4.4.1', 'all');
