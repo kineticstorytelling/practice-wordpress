@@ -36,7 +36,7 @@ function luke_register_styles(){
 add_action('wp_enqueue_scripts', 'luke_register_styles');
 
 //adds all the scripts for javascript 
-function followandrew_register_scripts(){
+function luke_register_scripts(){
 
     wp_enqueue_script('luke-jquery', "https://code.jquery.com/jquery-3.4.1.slim.min.js", array(), '3.4.1', true);
     wp_enqueue_script('luke-popper', "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js", array(), '1.16.0', true);
