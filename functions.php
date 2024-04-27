@@ -45,7 +45,7 @@ function luke_register_scripts(){
 
 }
 
-add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
+add_action('wp_enqueue_scripts', 'luke_register_scripts');
 
 
 function luke_widget_areas(){
